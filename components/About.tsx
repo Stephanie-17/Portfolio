@@ -14,18 +14,32 @@ const About = () => {
 
 				<section className="mt-12 w-full bg-blue-200 p-4 rounded-3xl text-black">
 					<p className="text-center">
-						I am a Frontend Developer with over a year of hands-on experience
-						building modern, high-quality web interfaces. I specialize in HTML,
-						CSS, and JavaScript, and I work extensively with frameworks like
-						React and Next.js to build fast, scalable applications. I’m also
-						very comfortable using Git for version control in team-based and
-						solo projects. I have a strong eye for detail and solid experience
-						creating responsive layouts that are pixel-perfect, accessible, and
-						user-focused. I place a high priority on good UX and making sure
-						interfaces look and perform well across all devices and screen
-						sizes. I’m a strong communicator and collaborator, which allows me
-						to work effectively within teams, align closely with designers and
-						developers, and deliver polished, reliable frontend solutions.
+						I’m a Frontend Developer with over a year of hands-on experience
+						building modern, high-quality web applications. I work mainly with
+						HTML, CSS, and JavaScript, and I’m very comfortable using React and
+						Next.js to create fast, scalable, and maintainable interfaces. I
+						also use Git daily, collaborating through branches and pull requests
+						as part of a team workflow. <br />
+						<br />
+						I’m big on details. I enjoy turning designs into pixel-perfect,
+						accessible, and responsive interfaces that feel good to use and look
+						great on every screen size. Good UX matters to me, and I like
+						thinking through how users actually interact with what I’m building,
+						not just how it looks. <br />
+						<br />
+						I love collaborating with others, sharing ideas, and bringing
+						concepts to life through clean, thoughtful code. I communicate
+						clearly, adapt quickly, and thrive in team environments, especially
+						when there’s room to learn, experiment, and build something
+						meaningful.
+						<br />
+						<br /> When I’m not coding, you’ll probably find me watching
+						YouTube, jamming to music, crocheting, or catching up on my
+						favourite sitcoms. Crocheting is basically programming with yarn,
+						you follow patterns, repeat steps, fix mistakes when something goes
+						wrong, and trust the process even when it doesn’t make sense at
+						first. That same patience and problem-solving mindset shows up in
+						how I build interfaces too.
 					</p>
 				</section>
 			</div>

@@ -16,8 +16,8 @@ const scrollTo = (id:string) => {
         	<h2 className="font-semibold text-2xl text-blue-200">SEA</h2>
 
       <div className="flex gap-7 lg:gap-15 xl:gap-20 max-md:hidden">
-        <a onClick={()=>scrollTo('about')} className="cursor-pointer">About</a>
-					<a onClick={()=>scrollTo('projects')} className="cursor-pointer" >Projects</a>
+        <a onClick={()=>scrollTo('about')} className="cursor-pointer hover:text-blue-300 transition-all duration-500">About</a>
+					<a onClick={()=>scrollTo('projects')} className="cursor-pointer hover:text-blue-300 transition-all duration-500" >Projects</a>
 					<a href="">Contact</a>
       </div>
 
@@ -27,9 +27,9 @@ const scrollTo = (id:string) => {
 {/* SIDEBAR */}
 			{showMenu && (
 				<div className="sidebar mt-5 py-4 flex flex-col gap-4 font-semibold md:hidden px-5 ">
-					<a href="#about">About</a>
-					<a href="#projects">Projects</a>
-					<a href="">Contact</a>
+					<a className="cursor-pointer hover:text-blue-300 transition-all duration-500" href="#about">About</a>
+					<a className="cursor-pointer hover:text-blue-300 transition-all duration-500" href="#projects">Projects</a>
+					<a className="cursor-pointer hover:text-blue-300 transition-all duration-500" href="">Contact</a>
 				</div>
 			)}
 

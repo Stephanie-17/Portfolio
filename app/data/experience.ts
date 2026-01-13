@@ -1,49 +1,45 @@
 export const experienceData = [
-  {
-    id: 1,
-    role: 'Frontend Developer',
-    company: 'AcademiaHub Africa',
-    timeline: 'October 2025 - Present',
-    whatIDid: [
-      "Working as a Frontend Developer building and maintaining web applications using Next.js.",
-      "Collaborating closely with team members using Git, following a structured workflow with branches and pull requests.",
-      'Translating designs into responsive, accessible, and high-quality user interfaces.',
-      'Contributing to feature development while maintaining clean, reusable, and scalable frontend code.',
-      'Actively participating in code reviews and team discussions to improve overall product quality.'
-    ],
-    techStack: [
-      "Next.js",
-      "JavaScript",
-      "Git"
-    ]
-  },
-  {
-    id: 1,
-    role: 'Frontend Intern',
-    company: 'HNG Internship',
-    timeline: 'October 2025 - November 2025',
-    whatIDid: [
-      "Completed 5 stages of a competitive, project-based internship focused on real-world frontend development.",
-      "Built multiple web and mobile applications across progressive stages using HTML, CSS, JavaScript, React, Next.js, and React Native.",
-      'Developed responsive, pixel-perfect, and accessible user interfaces following modern UX best practices.',
-      'Implemented complex features including authentication, CRUD operations, global state management, and form validation.',
-      'Worked with multiple frameworks and tools, adapting quickly to new technologies and project requirements.',
-      'Collaborated in a fast-paced environment while meeting strict deadlines and quality standards.'
-    ],
-    techStack: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ReactJs",
-      "NextJs",
-      "TypeScript",
-      "React Native",
-      "TailwindCSS",
-      "Git",
-      "Convex",
-      "Supabase",
-      "Expo",
-      "Context API"
-    ]
-  }
-]
+	{
+		id: 1,
+		role: "Frontend Developer",
+		company: "AcademiaHub Africa",
+		timeline: "October 2025 - Present",
+		whatIDid: [
+			"Working as a Frontend Developer building and maintaining web applications using Next.js.",
+			"Collaborating closely with team members using Git, following a structured workflow with branches and pull requests.",
+			"Translating designs into responsive, accessible, and high-quality user interfaces.",
+			"Contributing to feature development while maintaining clean, reusable, and scalable frontend code.",
+			"Actively participating in code reviews and team discussions to improve overall product quality.",
+		],
+		techStack: ["Next.js", "JavaScript", "Git"],
+	},
+	{
+		id: 1,
+		role: "Frontend Intern",
+		company: "HNG Internship",
+		timeline: "October 2025 - November 2025",
+		whatIDid: [
+			"Completed 5 stages of a competitive, project-based internship focused on real-world frontend development.",
+			"Built multiple web and mobile applications across progressive stages using HTML, CSS, JavaScript, React, Next.js, and React Native.",
+			"Developed responsive, pixel-perfect, and accessible user interfaces following modern UX best practices.",
+			"Implemented complex features including authentication, CRUD operations, global state management, and form validation.",
+			"Worked with multiple frameworks and tools, adapting quickly to new technologies and project requirements.",
+			"Collaborated in a fast-paced environment while meeting strict deadlines and quality standards.",
+		],
+		techStack: [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"ReactJs",
+			"NextJs",
+			"TypeScript",
+			"React Native",
+			"TailwindCSS",
+			"Git",
+			"Convex",
+			"Supabase",
+			"Expo",
+			"Context API",
+		],
+	},
+];

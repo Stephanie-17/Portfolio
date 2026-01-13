@@ -17,15 +17,18 @@ const Experience = () => {
 				</h2>
 			</header>
 
-        <section className="grid grid-cols-1 lg:grid-cols-2  gap-10 justify-center items-stretch auto-rows-fr mt-10 p-3">
-          {
-        experienceData.map(exp =>(
-          <ExperienceCard key={exp.id} role={exp.role} company={exp.company} timeline={exp.timeline} whatIDid={exp.whatIDid} techStack={exp.techStack} />
-        ))
-       }
-        </section>
-       
-        
+			<section className="grid grid-cols-1 lg:grid-cols-2  gap-10 justify-center items-stretch auto-rows-fr mt-10 p-3">
+				{experienceData.map((exp) => (
+					<ExperienceCard
+						key={exp.id}
+						role={exp.role}
+						company={exp.company}
+						timeline={exp.timeline}
+						whatIDid={exp.whatIDid}
+						techStack={exp.techStack}
+					/>
+				))}
+			</section>
 		</div>
 	);
 };

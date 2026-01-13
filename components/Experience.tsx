@@ -5,7 +5,7 @@ import { experienceData } from "@/app/data/experience";
 const Experience = () => {
 	return (
 		<div
-			id="Experience"
+			id="experience"
 			className="flex flex-col justify-center items-center mt-40 "
 		>
 			<div className="bg-blue-300/30 w-40 rounded-4xl p-2 border-2 border-blue-500 mb-7">
@@ -17,7 +17,7 @@ const Experience = () => {
 				</h2>
 			</header>
 
-        <section className="grid grid-cols-2  gap-10 justify-centeritems-stretch auto-rows-fr mt-10">
+        <section className="grid grid-cols-1 lg:grid-cols-2  gap-10 justify-center items-stretch auto-rows-fr mt-10 p-3">
           {
         experienceData.map(exp =>(
           <ExperienceCard key={exp.id} role={exp.role} company={exp.company} timeline={exp.timeline} whatIDid={exp.whatIDid} techStack={exp.techStack} />

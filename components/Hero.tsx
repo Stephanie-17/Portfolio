@@ -20,7 +20,7 @@ const Hero = () => {
 			<div className="hero-image w-80 lg:w-100 mt-12 rounded-full bg-blue-300 p-2 flex items-center">
 				<Image
 					className="rounded-full  lg:w-md  "
-					src={"/placeholder.jpg"}
+					src={"/A-picture-of-me.jpeg"}
 					alt="A placeholder picture of me"
 					width={300}
 					height={300}

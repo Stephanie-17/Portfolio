@@ -11,9 +11,7 @@ const Hero = () => {
 					Hi, that&apos;s <span className="font-semibold ">ME.</span>
 				</h2>
 				<p className="max-sm:w-75 sm:max-md:w-md md:w-100 text-lg">
-					I&apos;m guessing you want to know who I am, what I do and why you
-					NEED to work with me. <br /> Well, keep scrolling and you&apos;ll find
-					out
+					I&apos;m a Frontend Developer with 1+ years of experience working with HTML, CSS, JavaScript, Git, React, and NextJs
 				</p>
 			</div>
 
